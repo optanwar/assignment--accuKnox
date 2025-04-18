@@ -1,0 +1,12 @@
+{
+  "CSPM Executive Dashboard": [
+    { "name": "Cloud Account", "text": "Details about Cloud" },
+    { "name": "Vulnerability Scan", "text": "Security scans running" },
+    { "name": "Inventory", "text": "List of all assets" }
+  ],
+  "CWPP Dashboard": [
+    { "name": "Clreruntdrer", "text": "Details about Cloud" },
+    { "name": "Vulrerewlity Scandr", "text": "Security scans running" },
+    { "name": "Inventorrewrewy", "text": "List of all assets" }
+  ]
+}
