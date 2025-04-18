@@ -107,7 +107,7 @@ const AddWidgetDrawer = ({ open, onClose, tabValue, setTabValue }) => {
 
   return (
     <Drawer anchor="right" open={open} onClose={onClose}>
-      <Box className="w-[260px] sm:w-[384px] md:w-[530px] lg:w-[600px] xl:w-[750px] max-w-2xl relative min-h-screen flex flex-col justify-between">
+      <Box className="w-screen sm:w-[384px] md:w-[530px] lg:w-[600px] xl:w-[750px] max-w-full relative min-h-screen flex flex-col justify-between">
         <div className="bg-blue-950 flex justify-between items-center px-4 py-4">
           <h1 className="font-roboto text-base font-semibold text-white">Add Widget</h1>
           <button onClick={onClose} className="text-xl text-white hover:text-red-500 transition">
@@ -115,7 +115,7 @@ const AddWidgetDrawer = ({ open, onClose, tabValue, setTabValue }) => {
           </button>
         </div>
 
-        <div className="p-4 flex-1 overflow-y-auto">
+        <div className="p-4 flex-1 overflow-y-auto pb-24">
           <p className="font-roboto font-normal text-gray-800 text-xs md:text-sm">
             Personalise your dashboard by adding the following widget
           </p>
@@ -167,7 +167,7 @@ const AddWidgetDrawer = ({ open, onClose, tabValue, setTabValue }) => {
           </div>
         </div>
 
-        <div className="w-full px-4 py-3 flex justify-end gap-2 border-t bg-white">
+        <div className="w-full px-4 py-3 flex justify-end gap-2 border-t bg-white fixed bottom-0 left-0 z-10">
           <button
             onClick={onClose}
             className="font-medium font-roboto text-base px-4 py-1 border rounded-md hover:bg-gray-300 transition-all duration-200"
